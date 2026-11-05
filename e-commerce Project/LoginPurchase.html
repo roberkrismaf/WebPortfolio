@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+        body {
+        background-image: url('./Images/Photography.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        }
+
+		.error {
+		background: #F2DEDE;
+		color: #A94442;
+		padding: 10px;
+		width: 95%;
+		border-radius: 5px;
+		margin: 20px auto;
+		}    
+
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-6">
+                <div class="card shadow mt-5">
+                    <div class="text-center">
+                        <a href="index.html"><img class="my-3" style="width: 25%" src="./Images/logo.png" alt=""></a>
+                    </div>
+                    <div class="container">
+                        <div class="login-form">
+                            <form action="login.php" method="post">
+								<h2 class="text-center">LOGIN TO PURCHASE | JOIN</h2>						
+                                <div class="form-group">
+                                    <label>User Name</label>
+                                    <input type="text" name="uname" class="form-control" placeholder="Username" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Remember Me
+                                    </label>
+                                    <label class="float-right">
+                                        <a href="#" class="text-info">Forgotten Password</a>
+                                    </label>
+
+                                </div>
+                                <button type="submit" class="btn btn-secondary btn-block my-3">Sign in</button>
+
+                                <div class="register-link m-t-15 text-center">
+                                    <p>Don't have account? <a href="Pangan_Lab6-register.html" class="text-info"> Sign Up Here</a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>

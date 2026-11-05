@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" content="Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2973804736.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image" href="./Images/Logo.jpg">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./Me/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Computer Technician • Graphic Designer • Basic Web Design </p>
+                <h1>Hi, I'm <span>Rober Krismaf</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------ABOUT------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Me/Rob.png">
+                </div>
+                <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1>
+                   <p>I'm a profession of Computer Technician but I've
+                    been routed thru the career of Graphic Design
+                    right after I graduated, been employed in
+                    photo studio, printing press, advertising.
+
+                    Right after, I stop and been a freelance for
+                    a while and after, I got into being a Consultant
+                    in BPO companies up to recent.
+                   </p>
+
+                   <div class="tabl-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Other Achievements')">Other Achievements</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Beginner Web Developer</span><br>Front-End Web Development - HTML, CSS, Bootstrap</li>
+                        <li><span>Graphic Design</span><br>Basic Designs - Invitations, Call cards, Tarpaulins, Id's,<br>Certificate, Guest Books, Poster, etc.</li>
+                        <li><span>Computer Technician</span><br>Basic Repair - Reformat, Installation Software/Hardware</li>                        
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Consultant (BPO)</span><br>Team-mate TaskUs</li>
+                            <li><span>Beginner Web Developer</span><br>School Outputs (Evidence on learning only, no experience yet)</li>
+                            <li><span>Graphic Design</span><br>Majestic Shots Photography Dolores,<br>City of San Fernando, Pampanga<br>April 2011 - December 2011</li>
+                            <li><span>Computer Technician</span><br>RM Internet Cafe<br>San Agustin, City of San Fernando, Pampanga<br>May 2010 - March 2011</li>                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Cavite State University (CVSU - Undergrad)</span><br>BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</li>
+                            <li><span>Systems Technology Institute Pampanga (STI)</span><br>Diploma in Computer Electronics and Technology</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Other Achievements">
+                        <ul>
+                            <li><span>Sea Gem Training and Assessment Center Inc.</span><br>TESDA Computer Systems Servicing NCII</li>
+                            <li><span>Prepare Architectural Drawing using CAD System and Manual Drafting Method<br>Leading to Technical Drafting NC II (AutoCAD 2014 with Color Rendering)</span><br>Microcadd Institute Inc. Pampanga</li>
+                            <li><span>ICT Literacy and Competency Development Bureau,<br>Department of Information and Communications Technology - Luzon Cluster 2</span><br>Python Programming Essential Course</li>
+
+                        </ul>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------PORTFOLIO------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="portfolio-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>  
+                    <h2>Beginner Web Design</h2>
+                    <p>There are so many things to cover and consider because web design is a vast discipline.
+                        It implies a successful collaboration of appearance, layout, general atmosphere, content,
+                        user experience, and accessibility. Hundreds of separate and interconnected tasks need to
+                        be accomplished in time to meet the deadline and expectations of the clients. That is why
+                        I'm eager to learn on this field, even though I'm a beginner, I look forward what would be
+                        my journey on this field and excited for what would i become in it.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-to-square"></i>  
+                    <h2>Graphic<br>Design</h2>
+                    <p>“Make it simple, but significant.” - Don Draper. As a graphic design for many years, I've
+                        learned that you shouldn't stick from what you know, as everything improves drasticly,
+                        technology evolves so fast specially on designing as it scope a lot of things, either in
+                        in simple design, video editing, animation and many more. Everyday is learning through design.
+                        As this industry moves and evolves vastly in many various ways either in simple print shop,
+                        digital, workshop, architectural, and many more. You have to learn every bit on it.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-person-chalkboard"></i>                    
+                    <h2>Computer<br>Services</h2>
+                    <p>“All parts should go together without forcing. You must remember that the parts you are
+                        reassembling were disassembled by you.  Therefore, if you can't get them together again,
+                        there must be a reason.  By all means, do not use a hammer.” — IBM Manual. This would be
+                        the life as a computer technician, your mind must be good at tinkering, solving what would
+                        be the cause of any troubleshooting problems. It also requires good hands and eyesight that
+                        could fix as it focuses more on electronic things. It also helped me learn to fix other thngs.
+                        </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------PORTFOLIO2------------------------- -->
+
+    <div id="portfolio2">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Images/2.jpg">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>This are my School Project Work as a beginner.<br>(No Industry experience yet)</p>                        
+                        <a href="./e-commerce Project/index.html" target="new"><i class="fa-solid fa-code"></i></i></a>    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/3.jpg">
+                    <div class="layer">
+                        <h3>Graphic Design</h3>
+                        <p>This are my Design Porfolio for being a graphic design.</p>
+                        <a href="./Carousel/My Work.html" target="new"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/1.jpg">
+                    <div class="layer">
+                        <h3>Computer Tech</h3>
+                        <p>Thi requires a hand work.</p>
+                        <a href="#"><i class="fa-solid fa-person-chalkboard"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ---------------CONTACT------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>roberkrismaf@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+63 9998343629 / +63 9923400714</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/roberkris31/" target="new"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.gmail.com" target="new"><i class="fa-brands fa-google"></i></a>
+                        <a href="https://twitter.com/robby0531" target="new"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/roberpangan/" target="new"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/roberkrismaf" target="new"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./Images/Rober Krismaf Pangan Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Kevin. By GreatStack Easy Tutorials</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+
+
+
+
+   
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script> -->
+
+
+  </body>
+</html>

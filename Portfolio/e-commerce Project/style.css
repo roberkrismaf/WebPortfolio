@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Permanent Marker';
+    color: black;
+}
+
+.navbar-brand :hover {
+    color: black;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-link :hover {
+    color: black;
+}
+
+.search {
+    height: 40px;
+    width: 300px;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(49, 49, 49);
+    border-radius: 60px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.main {
+    background: url(./Images/Photography.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    text-shadow: 4px 3px 6px rgba(0,0,0,0.49);
+
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(49, 49, 49);
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover {
+    background-color:rgb(216, 216, 216);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Satisfy', cursive;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+h6 {
+    font-weight: 700;
+}
+
+.btn2 {
+    height: 45px;
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: rgb(55, 55, 55);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 100px;
+}
+
+.btn2:hover {
+    background-color:rgb(101, 101, 101);
+}
+
+.card:hover {
+    box-shadow: 8px 10px 22px -7px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 8px 10px 22px -7px rgba(0,0,0,0.71);
+    -moz-box-shadow: 8px 10px 22px -7px rgba(0,0,0,0.71);
+    transition: 0.5s;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 6px 4px 8px rgba(0,0,0,0.46);
+}
+
+.cameraman {
+    background: url(./Images/Bottom_pic.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;    
+}
+
+.btn3 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(49, 49, 49);
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn3:hover {
+    background-color:rgb(216, 216, 216);
+}
+
+.news {
+    background-color: black;
+    color: white;
+}
+
+.btn4 {
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news::placeholder {
+    color: white;
+}
+
+
+.EnterEmail {
+    height: 40px;
+    width: 400px;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -45px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.btn4 {
+    height: 50px;
+    width: 20%;
+    outline: none;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(49, 49, 49);
+    border-radius: 60px;
+    font-weight: 700;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.news p{
+    margin: 0;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 2.5rem;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    cursor: pointer;
+  }
+  
+  /* .fa:hover {
+      opacity: 0.5;
+  } */
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
